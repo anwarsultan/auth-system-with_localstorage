@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form # 1</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="section-1">
+
+        <form onsubmit="handleRegistration(event)" style="max-width: 450px;" class="formm">
+            <h2 class="sign-up-text">Sign up</h2>
+            <div>
+                <label for="name"><i class="fa fa-user icon"></i></label>
+                <input class="user-name" type="text" name="name" id="name" placeholder="your name" required>
+            </div>
+            <div>
+                <label for="email"><i class="fa fa-envelope icon"></i></label>
+                <input class="user-name" type="text" name="email" id="email" placeholder="abc123@gmail.com" required>
+            </div>
+            <div>
+                <label for="passward"><i class="fa fa-lock icon"></i></label>
+                <input class="user-name" type="passward" name="passward" id="passward" placeholder="passward" required>
+            </div>
+            <div>
+                <label for="repeat passward"><i class="fa fa-lock icon"></i></label>
+                <input class="user-name" type="repeatpassward" name="repeatpassward" id="repeatpassward"
+                    placeholder="repeat passward" required>
+            </div>
+            <div>
+                <label>
+                    <input class="checkbox" type="checkbox" name="agree"> i agree all statements in <u>Terms of
+                        services</u></label>
+            </div>
+            <button class="regester-button">Regester</button>
+        </form>
+
+        <script src="./signup.js"></script>
+    </section>
+</body>
+
+</html>
+
+
+
+

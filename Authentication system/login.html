@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="login">Login</h1>
+        <form onsubmit="handlelogin(event)">
+            <div>
+                <label for="uname"><b>Username</b></label> <br>
+                <input class="user-name" type="text" id="username" placeholder="Enter Username" name="name"
+                    required><br>
+            </div>
+            <div>
+                <label for="psw"><b>Password</b></label><br>
+                <input class="user-name" type="password" id="password" placeholder="Enter Password" pass="pass"
+                    required>
+
+            </div>
+
+            <label>
+                <input type="checkbox" remember="remember">
+                Remember me
+            </label>
+
+            <div class="Button">
+                <button class="login-button" type="submit">Login</button>
+            </div>
+
+        </form>
+        <script src="./login.js"></script>
+    </div>
+</body>
+
+</html>

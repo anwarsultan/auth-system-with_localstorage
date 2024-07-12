@@ -1,0 +1,226 @@
+.maincontainer {
+    width:100%
+    /* height: 620px; */
+    /* background-color: aqua; */
+    
+}
+
+.fist-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.notes {
+    margin-left: 18px;
+
+}
+
+.notes_text {
+    font-size: 20px;
+}
+
+.buttons {
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 270px;
+}
+
+.btnAll {
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+.btnstarred {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #E6E7EB;
+    color: black;
+}
+
+.btnlogout {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D3691F;
+    color: black;
+}
+
+.addIcon {
+    
+    position: absolute;
+    top: 565px;
+    left:1280px;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+
+}
+
+.form {
+    display: none;
+
+    padding: 20px;
+    position: absolute;
+    left: 420px;
+    top:50px;
+    border-radius: 3px;
+    background-color: #58979F;
+    width: fit-content;
+}
+
+
+
+.formTitle {
+    font-size: 20px
+}
+
+.inputfield {
+    width: 395px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.datefield {
+    width: 180px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+}
+.second-section{
+    /* background-color: #D3691F; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    
+
+}
+
+/* .......... */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: rgb(231, 241, 241);
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.user-name {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    width: 310px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background-color: #2196F3;
+
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.Button {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+
+
+/* ....................... */
+
+.section-1 {
+
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 241, 241);
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.sign-up-text {
+    font-size: 45px;
+    display: flex;
+    font-weight: bold;
+}
+
+.checkbox {
+    margin-top: 40px;
+}
+
+.regester-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #6DABE4;
+    border: none;
+}

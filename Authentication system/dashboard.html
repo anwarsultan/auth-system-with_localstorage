@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="maincontainer" id="maincontainer">
+        <div class="fist-section">
+            <div class="notes">
+                <p class="notes_text">Notes</p>
+            </div>
+            <div class="buttons">
+                <button class="btnAll">All</button>
+                <button class="btnstarred">Only starred</button>
+                <button class="btnlogout" onclick="logout()">LogOut</button>
+            </div>
+        </div>
+        <!-- ................................. -->
+        <div id="container" class="second-section"></div>
+        <!-- add button -->
+        <div class="addIcon">
+            <i onclick="openForm()" class="fa fa-plus-circle" style="font-size:36px; margin-right: 40px;"></i>
+        </div>
+
+
+        <div id="form" class="form">
+            <form onsubmit="handleForm(event)">
+
+                <label class="formTitle" for="name"> Title:</label> <i onclick="closeForm()" class="fa fa-close"
+                    style="font-size:20px; margin-left: 340px; color:rgb(223, 218, 218);"></i><br>
+                <input class="inputfield" type="text" name="name" id="name" placeholder="your name"> <br>
+
+                <label class="formTitle">Date</label><br>
+                <input class="datefield" type="date" name="date" id="date">;<br>
+
+                <label class="formTitle">Subject</label><br>
+                <textarea id="textarea" name="textarea" rows="12" cols="54"
+                    style="border-radius: 3px; margin-bottom: 8px; outline: none;"> </textarea><br>
+
+                <button id="add">Add/Update</button>
+            </form>
+        </div>
+
+
+        <script src="./dashboard.js"></script>
+    </div>
+
+
+</body>
+
+</html>
